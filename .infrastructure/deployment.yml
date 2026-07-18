@@ -32,7 +32,7 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: todoapp-config
-              key: ENVIRONMENT
+              key: PYTHONUNBUFFERED
         - name: SECRET_KEY
           valueFrom:
             secretKeyRef:
